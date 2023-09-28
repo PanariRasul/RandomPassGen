@@ -11,7 +11,7 @@ input:focus-visible {
 }
 
 .main {
-    background-color: rgb(168, 168, 168);
+    background-color: rgba(255, 255, 255, 0.772);
     /* filter: blur(1px);
   -webkit-filter: blur(8px); */
     backdrop-filter: blur(50px);
@@ -24,7 +24,7 @@ input:focus-visible {
 .box {
     min-width: 50%;
     padding: 10px;
-    box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+    box-shadow: 0 4px 30px rgb(255, 111, 0);
     background: #ffffff;
     filter: none;
     /* border: 3px solid rgb(255, 98, 0); */
@@ -48,6 +48,7 @@ input:focus-visible {
     justify-content: space-between;
     color: rgb(0, 0, 0);
     font-size: 20px;
+    transition: 0.5s;
     
 }
 
@@ -67,7 +68,7 @@ label {
     box-shadow: 3px 3px 10px black;
     color: rgb(0, 0, 0);
     margin-top: 10px;
-    transition: ease-in-out;
+    transition: 2s;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -78,10 +79,19 @@ label {
 
 #btn:hover{
     width: 95%;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
-.main h1{
-    display: block;
-    margin-top: 0px;
+h1{
+    margin-top: 1px;
+    text-align: center;
+
+}
+.left{
+    transition: 0.5s;
+}
+
+.left:hover {
+    font-size: 25px;
+    transition-duration: 0.5s;
 }
